@@ -1,0 +1,61 @@
+# data = [1, 2 ,3 ,4, 5, True, [2, 3], "Adi"] 
+
+# data_2 = list((1, 2, 3, 4, 5))
+
+# print(type(data))
+# print(type(data_2))
+
+# print(data[7])
+
+# data = ["Apel", "Durian", "Jeruk"]
+
+# print(data)
+# print()
+
+# data.extend(["Rambutan", "Semangka"])
+# data.append("Semangka")
+# data.append(True)
+# print(data)
+
+# data.insert(0, "Rambutan")
+# print(data)
+# print()
+
+# data[0] = "Anggur"
+# print(data)
+
+# del data[0]
+# data_pop = data.pop(1)
+# print(data_pop)
+# print(data)
+
+# print(data * 3)
+
+# data_mahasiswa = [
+#     ["admin", "admin123", "admin"],
+#     ["user", "user123", "user"]
+# ]
+
+# # print(data_mahsiswa[0][2][0])
+
+# buah = ["Apel", "Durian", "Jeruk"]
+# index = 1
+# for data in buah :
+#     print(f"Data ke {index}")
+#     print(data)
+#     print("=" * 10)
+#     print()
+#     index = index + 1
+
+# for i in range(len(buah)) :
+#     print(f"Data ke {index}")
+#     print(buah[i])
+#     print("=" * 10)
+#     print()
+#     index = index + 1
+
+# for index, item in enumerate(data_mahasiswa) :
+#     print(f"Data ke-{index + 1}")
+#     print(f"user : {item[0]}")
+#     print(f"password : {item[1]}")
+#     print(f"role : {item[2]}")
